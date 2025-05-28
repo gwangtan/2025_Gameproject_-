@@ -147,12 +147,7 @@ public class DragDrop : MonoBehaviour
 
         return false;
     } 
-    Collider2D areaCollider = area.GetComponent<Collider2D>();
-            if (areaCollider == null)
-                return false;
 
-
-            return areaCollider.bounds.Contains(transform.position);
 }
 
 
